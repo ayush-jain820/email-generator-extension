@@ -1,3 +1,5 @@
+<img width="674" height="466" alt="image-3" src="https://github.com/user-attachments/assets/39dca036-e17a-4f4a-bfda-225c2921a44c" />
+<img width="481" height="307" alt="image-2" src="https://github.com/user-attachments/assets/30de035b-61a5-49eb-b74e-e7be853ef422" />
 # Gmail AI Reply Generator
 
 A Chrome Manifest V3 extension that adds a **Generate reply** button beside the Send button in Gmail reply composers. Choose a tone to send the conversation to your Spring backend; its generated reply is inserted into the reply composer for you to review and edit before sending.
