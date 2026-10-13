@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "Gmail AI Reply Generator",
+  "version": "1.0.0",
+  "description": "Generate Gmail replies in the tone you choose with your Spring backend.",
+  "host_permissions": [
+    "http://localhost:8080/*"
+  ],
+   "action": {
+   
+    "default_icon": "OIP.jpg"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://mail.google.com/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "css": [
+        "content.css"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}

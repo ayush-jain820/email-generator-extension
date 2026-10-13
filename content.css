@@ -1,0 +1,81 @@
+.gmail-ai-reply-button {
+  margin: 0 8px !important;
+  padding: 8px 14px !important;
+  border: 1px solid #dadce0 !important;
+  border-radius: 18px !important;
+  background: #fff !important;
+  color: #1a73e8 !important;
+  cursor: pointer !important;
+  font: 500 13px Arial, sans-serif !important;
+  white-space: nowrap !important;
+}
+
+.gmail-ai-reply-button:hover {
+  background: #f1f3f4 !important;
+}
+
+.gmail-ai-reply-control {
+  position: relative !important;
+  display: inline-flex !important;
+  align-items: center !important;
+}
+
+.gmail-ai-reply-panel {
+  position: absolute !important;
+  top: calc(100% + 4px) !important;
+  left: 0 !important;
+  z-index: 10000 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 8px !important;
+  min-width: 190px !important;
+  max-width: calc(100vw - 32px) !important;
+  box-sizing: border-box !important;
+  padding: 10px !important;
+  border: 1px solid #dadce0 !important;
+  border-radius: 8px !important;
+  background: #fff !important;
+  box-shadow: 0 4px 12px rgb(60 64 67 / 25%) !important;
+  color: #202124 !important;
+  font: 13px Arial, sans-serif !important;
+}
+
+.gmail-ai-reply-panel[hidden] {
+  display: none !important;
+}
+
+.gmail-ai-reply-tones {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr !important;
+  gap: 6px !important;
+}
+
+.gmail-ai-reply-tones button {
+  padding: 7px 9px !important;
+  border: 1px solid #dadce0 !important;
+  border-radius: 5px !important;
+  background: #fff !important;
+  color: #202124 !important;
+  cursor: pointer !important;
+  font: 13px Arial, sans-serif !important;
+  text-align: left !important;
+}
+
+.gmail-ai-reply-tones button:hover {
+  background: #f1f3f4 !important;
+}
+
+.gmail-ai-reply-tones button:disabled {
+  cursor: wait !important;
+  opacity: 0.6 !important;
+}
+
+.gmail-ai-reply-status {
+  max-width: 250px !important;
+  color: #5f6368 !important;
+  line-height: 1.4 !important;
+}
+
+.gmail-ai-reply-error {
+  color: #b3261e !important;
+}
